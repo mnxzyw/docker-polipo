@@ -5,7 +5,7 @@ version: '3'
 services:
   polipo:
     container_name: polipo
-    image: mnxzyw/polipo
+    image: polipo
     restart: unless-stopped
     network_mode: host
     volumes:
